@@ -21,7 +21,7 @@ var (
 
 func TestLongestCommonPrefix(t *testing.T) {
 	for _, v := range testCases {
-		if prefix := LongestCommonPrefix(v.strs); v.prefix != prefix {
+		if prefix := longestCommonPrefix(v.strs); v.prefix != prefix {
 			t.Errorf("%v longest common prefix %q, got %q", v.strs, v.prefix, prefix)
 		}
 	}
