@@ -15,4 +15,4 @@ go get github.com/razonyang/go-algorithm
 - [Fizz Buzz](/fizz_buzz)
 - [Longest Common Prefix](/longest_common_prefix)
 - [Find the Difference](/find_the_difference)
-- [Find the Difference](/merge_two_binary_trees)
+- [Merge Two Binary Trees](/merge_two_binary_trees)
