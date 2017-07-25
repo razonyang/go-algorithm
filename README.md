@@ -16,3 +16,5 @@ go get github.com/razonyang/go-algorithm
 - [Longest Common Prefix](/longest_common_prefix)
 - [Find the Difference](/find_the_difference)
 - [Merge Two Binary Trees](/merge_two_binary_trees)
+- [Two Sum](/two_sum)
+- [Replace Words](/replace_words)
