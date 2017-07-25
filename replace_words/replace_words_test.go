@@ -23,6 +23,11 @@ var (
 			sentence: "the cattle was rattled by the battery",
 			v:        "the cat was ra by the bat",
 		},
+		testCase{
+			dict:     []string{"a", "aa", "aaa", "aaaa"},
+			sentence: "a aa a aaaa aaa aaa aaa aaaaaa bbb baba ababa",
+			v:        "a a a a a a a a bbb baba a",
+		},
 	}
 )
 
