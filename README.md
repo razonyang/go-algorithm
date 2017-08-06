@@ -18,3 +18,5 @@ go get github.com/razonyang/go-algorithm
 - [Merge Two Binary Trees](/merge_two_binary_trees)
 - [Two Sum](/two_sum)
 - [Replace Words](/replace_words)
+- [Search Insert Position](/search_insert_position)
+- [Set Mismatch](/set_mismatch)
