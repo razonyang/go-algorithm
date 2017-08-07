@@ -20,3 +20,4 @@ go get github.com/razonyang/go-algorithm
 - [Replace Words](/replace_words)
 - [Search Insert Position](/search_insert_position)
 - [Set Mismatch](/set_mismatch)
+- [Intersection of Two Arrays](/intersection_of_two_arrays)
