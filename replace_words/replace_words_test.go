@@ -34,7 +34,7 @@ var (
 func TestReplaceWords(t *testing.T) {
 	for _, test := range testCases {
 		if v := replaceWords(test.dict, test.sentence); v != test.v {
-			t.Errorf("expect %q, got %q\n", test.v, v)
+			t.Errorf("expected %q, got %q\n", test.v, v)
 		}
 	}
 }

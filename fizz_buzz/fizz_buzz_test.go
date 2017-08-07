@@ -32,7 +32,7 @@ var (
 func TestFizzBuzz(t *testing.T) {
 	for _, test := range testCases {
 		if v := fizzBuzz(test.n); !reflect.DeepEqual(test.v, v) {
-			t.Errorf("for number %d, expect %v, got %v\n", test.n, test.v, v)
+			t.Errorf("fizzBuzz(%d), expected %v, got %v\n", test.n, test.v, v)
 		}
 	}
 }
@@ -40,7 +40,7 @@ func TestFizzBuzz(t *testing.T) {
 func TestFizzBuzz2(t *testing.T) {
 	for _, test := range testCases {
 		if v := fizzBuzz2(test.n); !reflect.DeepEqual(test.v, v) {
-			t.Errorf("for number %d, expect %v, got %v\n", test.n, test.v, v)
+			t.Errorf("fizzBuzz(%d), expected %v, got %v\n", test.n, test.v, v)
 		}
 	}
 }

@@ -51,7 +51,7 @@ var (
 func TestSearchInsert(t *testing.T) {
 	for _, test := range testCases {
 		if v := searchInsert(test.nums, test.target); v != test.v {
-			t.Errorf("nums: %v, target: %d, expect %d, got %d\n", test.nums, test.target, test.v, v)
+			t.Errorf("nums: %v, target: %d, expected %d, got %d\n", test.nums, test.target, test.v, v)
 		}
 	}
 }

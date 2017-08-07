@@ -34,7 +34,7 @@ var (
 func TestFindErrorNums(t *testing.T) {
 	for _, test := range testCases {
 		if v := findErrorNums(test.nums); !reflect.DeepEqual(v, test.v) {
-			t.Errorf("nums: %v, expect %v, got %v\n", test.nums, v, test.v)
+			t.Errorf("nums: %v, expected %v, got %v\n", test.nums, v, test.v)
 		}
 	}
 }
@@ -42,7 +42,7 @@ func TestFindErrorNums(t *testing.T) {
 func TestFindErrorNums2(t *testing.T) {
 	for _, test := range testCases {
 		if v := findErrorNums2(test.nums); !reflect.DeepEqual(v, test.v) {
-			t.Errorf("nums: %v, expect %v, got %v\n", test.nums, v, test.v)
+			t.Errorf("nums: %v, expected %v, got %v\n", test.nums, v, test.v)
 		}
 	}
 }

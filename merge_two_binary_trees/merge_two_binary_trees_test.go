@@ -33,7 +33,7 @@ var (
 func TestMergeTwoBinaryTrees(t *testing.T) {
 	for _, test := range testCases {
 		if v := mergeTrees(test.t1, test.t2); !reflect.DeepEqual(test.v, v) {
-			t.Errorf("expect %v, got %v\n", test.v, v)
+			t.Errorf("expected %v, got %v\n", test.v, v)
 		}
 	}
 }

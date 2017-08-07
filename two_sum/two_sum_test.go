@@ -31,7 +31,7 @@ var (
 func TestTwoSum(t *testing.T) {
 	for _, test := range testCases {
 		if v := twoSum(test.nums, test.target); !isEqual(v, test.v) {
-			t.Errorf("expect %v, got %v\n", test.v, v)
+			t.Errorf("expected %v, got %v\n", test.v, v)
 		}
 	}
 }
@@ -39,7 +39,7 @@ func TestTwoSum(t *testing.T) {
 func TestTwoSum2(t *testing.T) {
 	for _, test := range testCases {
 		if v := twoSum2(test.nums, test.target); !isEqual(v, test.v) {
-			t.Errorf("expect %v, got %v\n", test.v, v)
+			t.Errorf("expected %v, got %v\n", test.v, v)
 		}
 	}
 }
@@ -47,7 +47,7 @@ func TestTwoSum2(t *testing.T) {
 func TestTwoSum3(t *testing.T) {
 	for _, test := range testCases {
 		if v := twoSum3(test.nums, test.target); !isEqual(v, test.v) {
-			t.Errorf("expect %v, got %v\n", test.v, v)
+			t.Errorf("expected %v, got %v\n", test.v, v)
 		}
 	}
 }
